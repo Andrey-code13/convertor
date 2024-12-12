@@ -1,0 +1,20 @@
+%product catalog
+{
+completed
+andrey
+latin
+}
+years: '1 year'
+productName: 'Artisan Bread Maker'
+productID: 'ABM-5000'
+description: 'A high-quality bread maker for home use.'
+price: 299.99
+table(
+features => table(
+    warranty => ?[years],
+    programmableTimer => 60,
+    crustControl => 'true'
+)
+reviews => << table(rating => 5, comment => 'Excellent bread maker.'), table(rating => 4, comment => 'Good product but a bit pricey.') >>
+)
+

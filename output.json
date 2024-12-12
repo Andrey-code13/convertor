@@ -1,0 +1,59 @@
+{
+    "BOOKone": {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "year": 1925,
+        "genres": [
+            "Classic",
+            "Fiction"
+        ],
+        "availablecopies": 3
+    },
+    "BOOKtwo": {
+        "title": "1984",
+        "author": "George Orwell",
+        "year": 1949,
+        "genres": [
+            "Dystopian",
+            "Fiction"
+        ],
+        "availablecopies": 5
+    },
+    "BOOKthree": {
+        "title": "Sapiens: A Brief History of Humankind",
+        "author": "Yuval Noah Harari",
+        "year": 2011,
+        "genres": [
+            "History",
+            "Non-Fiction"
+        ],
+        "availablecopies": 2
+    },
+    "BOOKfour": {
+        "title": "Educated",
+        "author": "Tara Westover",
+        "year": 2018,
+        "genres": [
+            "Memoir",
+            "Non-Fiction"
+        ],
+        "availablecopies": 4
+    },
+    "library": {
+        "name": "City Library",
+        "location": "Downtown",
+        "established": 1995,
+        "totalbooks": 14,
+        "isopen": "true",
+        "sections": [
+            [
+                "Calculation error",
+                "Calculation error"
+            ],
+            [
+                "Calculation error",
+                "Calculation error"
+            ]
+        ]
+    }
+}

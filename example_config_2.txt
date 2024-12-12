@@ -1,0 +1,23 @@
+% Конфигурация базы данных
+host: 'localhost'
+port: 5432
+name: 'my_database'
+user: 'admin'
+password: 'secret'
+userid: 1
+orderid: 100
+table(
+tables => table(
+    users => table(
+        id => ?[userid],
+        name => 'string',
+        email => 'string',
+    ),
+    orders => table(
+        id => ?[orderid],
+        user_id => ?[userid],
+        total => 0
+    )
+)
+recent_activity => << table(timestamp => '2024-10-28T10:00:00Z', event => 'user_login'), table(timestamp => '2024-10-28T10:30:00Z', event => 'order_placed') >>
+)
